@@ -13,4 +13,12 @@
 
     <!-- Confirmation shown when a service area is tapped. -->
     <string name="tile_clicked">%1$s clicked</string>
+
+    <string name="back">Back</string>
+
+    <!-- Text shown on the detail screen until the real content is loaded. -->
+    <string name="placeholder_title">Service area</string>
+    <string name="placeholder_content">Details about this service area will appear here.</string>
+
+    <string name="area_icon">Icon for the selected service area</string>
 </resources>

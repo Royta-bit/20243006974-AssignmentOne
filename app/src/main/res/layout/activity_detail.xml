@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Detail screen: the banner carries the title of the chosen service area, the
+    icon for that area sits beside the scrollable description, and a back
+    button closes the screen. Sizes come from weights and res/values/dimens.xml.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!-- Banner photograph with the title of the selected area over it. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/banner_title"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_main_banner" />
+
+        <TextView
+            android:id="@+id/text_detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:padding="@dimen/screen_padding"
+            android:shadowColor="@color/black"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="@dimen/screen_padding"
+            android:text="@string/placeholder_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/detail_title_text_size"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <!-- Icon for the area, beside the description that comes from array.xml. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="@dimen/screen_padding">
+
+        <ImageView
+            android:id="@+id/image_detail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_normal"
+            android:contentDescription="@string/area_icon"
+            android:padding="@dimen/tile_padding"
+            android:scaleType="fitCenter" />
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:padding="@dimen/screen_padding">
+
+            <TextView
+                android:id="@+id/text_detail_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/detail_content_text_size" />
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/screen_padding"
+        android:background="@drawable/button_selector"
+        android:paddingStart="@dimen/button_horizontal_padding"
+        android:paddingEnd="@dimen/button_horizontal_padding"
+        android:text="@string/back"
+        android:textColor="@color/white"
+        app:backgroundTint="@null" />
+</LinearLayout>
