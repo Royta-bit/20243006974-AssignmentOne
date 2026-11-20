@@ -36,7 +36,6 @@
             android:shadowDx="0"
             android:shadowDy="0"
             android:shadowRadius="@dimen/screen_padding"
-            android:text="@string/placeholder_title"
             android:textColor="@color/white"
             android:textSize="@dimen/detail_title_text_size"
             android:textStyle="bold" />
@@ -70,7 +69,6 @@
                 android:id="@+id/text_detail_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/placeholder_content"
                 android:textColor="@color/black"
                 android:textSize="@dimen/detail_content_text_size" />
         </ScrollView>
