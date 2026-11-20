@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Palette supplied for the CampusLife branding. -->
+    <color name="green">#1B5E20</color>
+    <color name="light_green">#66BB6A</color>
+
     <color name="white">#FFFFFFFF</color>
     <color name="black">#FF000000</color>
 </resources>
