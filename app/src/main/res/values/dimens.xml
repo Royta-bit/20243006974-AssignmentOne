@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Banner heading, the single text size fixed by the specification. -->
+    <dimen name="banner_title_text_size">40sp</dimen>
+
+    <!-- Shared spacing, so no layout file holds literal dimensions. -->
+    <dimen name="screen_padding">8dp</dimen>
+    <dimen name="tile_padding">12dp</dimen>
+    <dimen name="button_corner_radius">16dp</dimen>
+    <dimen name="button_horizontal_padding">24dp</dimen>
+
+    <!-- Text sizes for the labels and the detail screen. -->
+    <dimen name="tile_label_text_size">18sp</dimen>
+    <dimen name="detail_title_text_size">24sp</dimen>
+    <dimen name="detail_content_text_size">16sp</dimen>
+</resources>

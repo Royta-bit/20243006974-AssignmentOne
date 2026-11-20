@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AssignmentOne</string>
+
+    <!-- Heading drawn over the banner photograph. -->
+    <string name="banner_title">CampusLife</string>
+
+    <!-- The four service areas shown on the main screen. -->
+    <string name="facilities">Facilities</string>
+    <string name="events">Events</string>
+    <string name="clubs">Clubs</string>
+    <string name="support">Support</string>
 </resources>
