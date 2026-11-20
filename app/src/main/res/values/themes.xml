@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The screens draw their own banner, so no action bar is needed. -->
+    <style name="Base.Theme.AssignmentOne" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="Theme.AssignmentOne" parent="Base.Theme.AssignmentOne" />
+</resources>

@@ -1,0 +1,14 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Course materials supplied on Canvas, kept out of the repository.
+/Resources/
+COMPX202-Y05853_Assignment*
