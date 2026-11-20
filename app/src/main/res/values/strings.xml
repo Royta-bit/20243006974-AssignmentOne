@@ -10,4 +10,7 @@
     <string name="events">Events</string>
     <string name="clubs">Clubs</string>
     <string name="support">Support</string>
+
+    <!-- Confirmation shown when a service area is tapped. -->
+    <string name="tile_clicked">%1$s clicked</string>
 </resources>
