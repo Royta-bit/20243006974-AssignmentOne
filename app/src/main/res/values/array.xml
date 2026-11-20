@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    The three arrays below run in parallel: position 0 describes Facilities,
+    position 1 describes Events, position 2 describes Clubs and position 3
+    describes Support. DetailActivity uses the identifier it receives from
+    MainActivity as the index into all three.
+-->
 <resources>
     <string-array name="string_array_images">
         <item> img_btn_facilities </item>
